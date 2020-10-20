@@ -1,0 +1,815 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4CA704B82524AE4E00DED889 /* GooglePlaces.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA704B72524AE4E00DED889 /* GooglePlaces.swift */; };
+		4CA9E2C424D9F7F800938F84 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA9E2C324D9F7F800938F84 /* AppDelegate.swift */; };
+		4CA9E2C624D9F7F800938F84 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA9E2C524D9F7F800938F84 /* SceneDelegate.swift */; };
+		4CA9E2C824D9F7F800938F84 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA9E2C724D9F7F800938F84 /* ViewController.swift */; };
+		4CA9E2CB24D9F7F800938F84 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CA9E2C924D9F7F800938F84 /* Main.storyboard */; };
+		4CA9E2CD24D9F7F900938F84 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CA9E2CC24D9F7F900938F84 /* Assets.xcassets */; };
+		4CA9E2D024D9F7F900938F84 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CA9E2CE24D9F7F900938F84 /* LaunchScreen.storyboard */; };
+		4CA9E2DB24D9F7FA00938F84 /* The_UmbrellaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA9E2DA24D9F7FA00938F84 /* The_UmbrellaTests.swift */; };
+		4CA9E2E624D9F7FA00938F84 /* The_UmbrellaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA9E2E524D9F7FA00938F84 /* The_UmbrellaUITests.swift */; };
+		4CF1882724DB29A0001C1D33 /* Extras.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CF1882624DB29A0001C1D33 /* Extras.swift */; };
+		4CF1882924DB2EC5001C1D33 /* CurrentWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CF1882824DB2EC5001C1D33 /* CurrentWeather.swift */; };
+		4CF1882D24DB368F001C1D33 /* extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CF1882C24DB368F001C1D33 /* extensions.swift */; };
+		4CF1882F24DB42B4001C1D33 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CF1882E24DB42B4001C1D33 /* Location.swift */; };
+		C3B6E90CDBA5277952926951 /* Pods_The_Umbrella.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCC0D74A2B7CA95A5D0259E6 /* Pods_The_Umbrella.framework */; };
+		CB9D192FE1A9E996CCEEA5BF /* Pods_The_UmbrellaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BFFF8CD0ADECEF9D77B030D /* Pods_The_UmbrellaTests.framework */; };
+		F05FCE02C2A513CAE61FD8D7 /* Pods_The_Umbrella_The_UmbrellaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 321D4E82DD14AE71CDE8260B /* Pods_The_Umbrella_The_UmbrellaUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4CA9E2D724D9F7FA00938F84 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4CA9E2B824D9F7F800938F84 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4CA9E2BF24D9F7F800938F84;
+			remoteInfo = "The Umbrella";
+		};
+		4CA9E2E224D9F7FA00938F84 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4CA9E2B824D9F7F800938F84 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4CA9E2BF24D9F7F800938F84;
+			remoteInfo = "The Umbrella";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1BFFF8CD0ADECEF9D77B030D /* Pods_The_UmbrellaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_The_UmbrellaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		321D4E82DD14AE71CDE8260B /* Pods_The_Umbrella_The_UmbrellaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_The_Umbrella_The_UmbrellaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CA704B72524AE4E00DED889 /* GooglePlaces.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GooglePlaces.swift; sourceTree = "<group>"; };
+		4CA9E2C024D9F7F800938F84 /* The Umbrella.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "The Umbrella.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CA9E2C324D9F7F800938F84 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4CA9E2C524D9F7F800938F84 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		4CA9E2C724D9F7F800938F84 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4CA9E2CA24D9F7F800938F84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4CA9E2CC24D9F7F900938F84 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4CA9E2CF24D9F7F900938F84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4CA9E2D124D9F7FA00938F84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CA9E2D624D9F7FA00938F84 /* The UmbrellaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "The UmbrellaTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CA9E2DA24D9F7FA00938F84 /* The_UmbrellaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = The_UmbrellaTests.swift; sourceTree = "<group>"; };
+		4CA9E2DC24D9F7FA00938F84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CA9E2E124D9F7FA00938F84 /* The UmbrellaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "The UmbrellaUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CA9E2E524D9F7FA00938F84 /* The_UmbrellaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = The_UmbrellaUITests.swift; sourceTree = "<group>"; };
+		4CA9E2E724D9F7FA00938F84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CF1882624DB29A0001C1D33 /* Extras.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extras.swift; sourceTree = "<group>"; };
+		4CF1882824DB2EC5001C1D33 /* CurrentWeather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentWeather.swift; sourceTree = "<group>"; };
+		4CF1882C24DB368F001C1D33 /* extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extensions.swift; sourceTree = "<group>"; };
+		4CF1882E24DB42B4001C1D33 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		756282419332BF5963F47179 /* Pods-The Umbrella-The UmbrellaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-The Umbrella-The UmbrellaUITests.release.xcconfig"; path = "Target Support Files/Pods-The Umbrella-The UmbrellaUITests/Pods-The Umbrella-The UmbrellaUITests.release.xcconfig"; sourceTree = "<group>"; };
+		7A7FB3D5AEB414D6438FDDCA /* Pods-The UmbrellaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-The UmbrellaTests.debug.xcconfig"; path = "Target Support Files/Pods-The UmbrellaTests/Pods-The UmbrellaTests.debug.xcconfig"; sourceTree = "<group>"; };
+		93A2863DD6D6F12CD31BAF6B /* Pods-The UmbrellaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-The UmbrellaTests.release.xcconfig"; path = "Target Support Files/Pods-The UmbrellaTests/Pods-The UmbrellaTests.release.xcconfig"; sourceTree = "<group>"; };
+		C0EFA9BAC0413C67160C3D09 /* Pods-The Umbrella-The UmbrellaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-The Umbrella-The UmbrellaUITests.debug.xcconfig"; path = "Target Support Files/Pods-The Umbrella-The UmbrellaUITests/Pods-The Umbrella-The UmbrellaUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		CBF0166A845992152718FE7A /* Pods-The Umbrella.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-The Umbrella.release.xcconfig"; path = "Target Support Files/Pods-The Umbrella/Pods-The Umbrella.release.xcconfig"; sourceTree = "<group>"; };
+		DA369DD880E7B78EFDD976AB /* Pods-The Umbrella.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-The Umbrella.debug.xcconfig"; path = "Target Support Files/Pods-The Umbrella/Pods-The Umbrella.debug.xcconfig"; sourceTree = "<group>"; };
+		DCC0D74A2B7CA95A5D0259E6 /* Pods_The_Umbrella.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_The_Umbrella.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4CA9E2BD24D9F7F800938F84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3B6E90CDBA5277952926951 /* Pods_The_Umbrella.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CA9E2D324D9F7FA00938F84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB9D192FE1A9E996CCEEA5BF /* Pods_The_UmbrellaTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CA9E2DE24D9F7FA00938F84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F05FCE02C2A513CAE61FD8D7 /* Pods_The_Umbrella_The_UmbrellaUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F718573FE8693781BFB6CBD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DA369DD880E7B78EFDD976AB /* Pods-The Umbrella.debug.xcconfig */,
+				CBF0166A845992152718FE7A /* Pods-The Umbrella.release.xcconfig */,
+				C0EFA9BAC0413C67160C3D09 /* Pods-The Umbrella-The UmbrellaUITests.debug.xcconfig */,
+				756282419332BF5963F47179 /* Pods-The Umbrella-The UmbrellaUITests.release.xcconfig */,
+				7A7FB3D5AEB414D6438FDDCA /* Pods-The UmbrellaTests.debug.xcconfig */,
+				93A2863DD6D6F12CD31BAF6B /* Pods-The UmbrellaTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		4CA9E2B724D9F7F800938F84 = {
+			isa = PBXGroup;
+			children = (
+				4CA9E2C224D9F7F800938F84 /* The Umbrella */,
+				4CA9E2D924D9F7FA00938F84 /* The UmbrellaTests */,
+				4CA9E2E424D9F7FA00938F84 /* The UmbrellaUITests */,
+				4CA9E2C124D9F7F800938F84 /* Products */,
+				3F718573FE8693781BFB6CBD /* Pods */,
+				B2AFFB8202519F1108A29077 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4CA9E2C124D9F7F800938F84 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4CA9E2C024D9F7F800938F84 /* The Umbrella.app */,
+				4CA9E2D624D9F7FA00938F84 /* The UmbrellaTests.xctest */,
+				4CA9E2E124D9F7FA00938F84 /* The UmbrellaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4CA9E2C224D9F7F800938F84 /* The Umbrella */ = {
+			isa = PBXGroup;
+			children = (
+				4CF1882B24DB3680001C1D33 /* Extensions */,
+				4CF1882524DB298F001C1D33 /* Extras */,
+				4CA9E2C324D9F7F800938F84 /* AppDelegate.swift */,
+				4CA9E2C524D9F7F800938F84 /* SceneDelegate.swift */,
+				4CA9E2C724D9F7F800938F84 /* ViewController.swift */,
+				4CA704B72524AE4E00DED889 /* GooglePlaces.swift */,
+				4CA9E2C924D9F7F800938F84 /* Main.storyboard */,
+				4CA9E2CC24D9F7F900938F84 /* Assets.xcassets */,
+				4CA9E2CE24D9F7F900938F84 /* LaunchScreen.storyboard */,
+				4CA9E2D124D9F7FA00938F84 /* Info.plist */,
+				4CF1882824DB2EC5001C1D33 /* CurrentWeather.swift */,
+				4CF1882E24DB42B4001C1D33 /* Location.swift */,
+			);
+			path = "The Umbrella";
+			sourceTree = "<group>";
+		};
+		4CA9E2D924D9F7FA00938F84 /* The UmbrellaTests */ = {
+			isa = PBXGroup;
+			children = (
+				4CA9E2DA24D9F7FA00938F84 /* The_UmbrellaTests.swift */,
+				4CA9E2DC24D9F7FA00938F84 /* Info.plist */,
+			);
+			path = "The UmbrellaTests";
+			sourceTree = "<group>";
+		};
+		4CA9E2E424D9F7FA00938F84 /* The UmbrellaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4CA9E2E524D9F7FA00938F84 /* The_UmbrellaUITests.swift */,
+				4CA9E2E724D9F7FA00938F84 /* Info.plist */,
+			);
+			path = "The UmbrellaUITests";
+			sourceTree = "<group>";
+		};
+		4CF1882524DB298F001C1D33 /* Extras */ = {
+			isa = PBXGroup;
+			children = (
+				4CF1882624DB29A0001C1D33 /* Extras.swift */,
+			);
+			path = Extras;
+			sourceTree = "<group>";
+		};
+		4CF1882B24DB3680001C1D33 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				4CF1882C24DB368F001C1D33 /* extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		B2AFFB8202519F1108A29077 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DCC0D74A2B7CA95A5D0259E6 /* Pods_The_Umbrella.framework */,
+				321D4E82DD14AE71CDE8260B /* Pods_The_Umbrella_The_UmbrellaUITests.framework */,
+				1BFFF8CD0ADECEF9D77B030D /* Pods_The_UmbrellaTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4CA9E2BF24D9F7F800938F84 /* The Umbrella */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CA9E2EA24D9F7FA00938F84 /* Build configuration list for PBXNativeTarget "The Umbrella" */;
+			buildPhases = (
+				2E83E82049AC6F7B0D3C8BCF /* [CP] Check Pods Manifest.lock */,
+				4CA9E2BC24D9F7F800938F84 /* Sources */,
+				4CA9E2BD24D9F7F800938F84 /* Frameworks */,
+				4CA9E2BE24D9F7F800938F84 /* Resources */,
+				F68EF8691EF689DFD0D31A32 /* [CP] Embed Pods Frameworks */,
+				947B47C9429D4989EB3B6D43 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "The Umbrella";
+			productName = "The Umbrella";
+			productReference = 4CA9E2C024D9F7F800938F84 /* The Umbrella.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4CA9E2D524D9F7FA00938F84 /* The UmbrellaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CA9E2ED24D9F7FA00938F84 /* Build configuration list for PBXNativeTarget "The UmbrellaTests" */;
+			buildPhases = (
+				FADFE564D43F8F48FC84AB1F /* [CP] Check Pods Manifest.lock */,
+				4CA9E2D224D9F7FA00938F84 /* Sources */,
+				4CA9E2D324D9F7FA00938F84 /* Frameworks */,
+				4CA9E2D424D9F7FA00938F84 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4CA9E2D824D9F7FA00938F84 /* PBXTargetDependency */,
+			);
+			name = "The UmbrellaTests";
+			productName = "The UmbrellaTests";
+			productReference = 4CA9E2D624D9F7FA00938F84 /* The UmbrellaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4CA9E2E024D9F7FA00938F84 /* The UmbrellaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CA9E2F024D9F7FA00938F84 /* Build configuration list for PBXNativeTarget "The UmbrellaUITests" */;
+			buildPhases = (
+				CFFFC0BE6EF1EDA9D4452067 /* [CP] Check Pods Manifest.lock */,
+				4CA9E2DD24D9F7FA00938F84 /* Sources */,
+				4CA9E2DE24D9F7FA00938F84 /* Frameworks */,
+				4CA9E2DF24D9F7FA00938F84 /* Resources */,
+				B28616E15566761001CC4CC8 /* [CP] Embed Pods Frameworks */,
+				CDAFB32E7017A4DDAE8567F0 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4CA9E2E324D9F7FA00938F84 /* PBXTargetDependency */,
+			);
+			name = "The UmbrellaUITests";
+			productName = "The UmbrellaUITests";
+			productReference = 4CA9E2E124D9F7FA00938F84 /* The UmbrellaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4CA9E2B824D9F7F800938F84 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = Lestad;
+				TargetAttributes = {
+					4CA9E2BF24D9F7F800938F84 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					4CA9E2D524D9F7FA00938F84 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 4CA9E2BF24D9F7F800938F84;
+					};
+					4CA9E2E024D9F7FA00938F84 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 4CA9E2BF24D9F7F800938F84;
+					};
+				};
+			};
+			buildConfigurationList = 4CA9E2BB24D9F7F800938F84 /* Build configuration list for PBXProject "The Umbrella" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4CA9E2B724D9F7F800938F84;
+			productRefGroup = 4CA9E2C124D9F7F800938F84 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4CA9E2BF24D9F7F800938F84 /* The Umbrella */,
+				4CA9E2D524D9F7FA00938F84 /* The UmbrellaTests */,
+				4CA9E2E024D9F7FA00938F84 /* The UmbrellaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4CA9E2BE24D9F7F800938F84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CA9E2D024D9F7F900938F84 /* LaunchScreen.storyboard in Resources */,
+				4CA9E2CD24D9F7F900938F84 /* Assets.xcassets in Resources */,
+				4CA9E2CB24D9F7F800938F84 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CA9E2D424D9F7FA00938F84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CA9E2DF24D9F7FA00938F84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2E83E82049AC6F7B0D3C8BCF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-The Umbrella-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		947B47C9429D4989EB3B6D43 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-The Umbrella/Pods-The Umbrella-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-The Umbrella/Pods-The Umbrella-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-The Umbrella/Pods-The Umbrella-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B28616E15566761001CC4CC8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-The Umbrella-The UmbrellaUITests/Pods-The Umbrella-The UmbrellaUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-The Umbrella-The UmbrellaUITests/Pods-The Umbrella-The UmbrellaUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-The Umbrella-The UmbrellaUITests/Pods-The Umbrella-The UmbrellaUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CDAFB32E7017A4DDAE8567F0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-The Umbrella-The UmbrellaUITests/Pods-The Umbrella-The UmbrellaUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-The Umbrella-The UmbrellaUITests/Pods-The Umbrella-The UmbrellaUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-The Umbrella-The UmbrellaUITests/Pods-The Umbrella-The UmbrellaUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CFFFC0BE6EF1EDA9D4452067 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-The Umbrella-The UmbrellaUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F68EF8691EF689DFD0D31A32 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-The Umbrella/Pods-The Umbrella-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-The Umbrella/Pods-The Umbrella-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-The Umbrella/Pods-The Umbrella-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FADFE564D43F8F48FC84AB1F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-The UmbrellaTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4CA9E2BC24D9F7F800938F84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CA9E2C824D9F7F800938F84 /* ViewController.swift in Sources */,
+				4CF1882924DB2EC5001C1D33 /* CurrentWeather.swift in Sources */,
+				4CA704B82524AE4E00DED889 /* GooglePlaces.swift in Sources */,
+				4CA9E2C424D9F7F800938F84 /* AppDelegate.swift in Sources */,
+				4CF1882724DB29A0001C1D33 /* Extras.swift in Sources */,
+				4CA9E2C624D9F7F800938F84 /* SceneDelegate.swift in Sources */,
+				4CF1882D24DB368F001C1D33 /* extensions.swift in Sources */,
+				4CF1882F24DB42B4001C1D33 /* Location.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CA9E2D224D9F7FA00938F84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CA9E2DB24D9F7FA00938F84 /* The_UmbrellaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CA9E2DD24D9F7FA00938F84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CA9E2E624D9F7FA00938F84 /* The_UmbrellaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4CA9E2D824D9F7FA00938F84 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4CA9E2BF24D9F7F800938F84 /* The Umbrella */;
+			targetProxy = 4CA9E2D724D9F7FA00938F84 /* PBXContainerItemProxy */;
+		};
+		4CA9E2E324D9F7FA00938F84 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4CA9E2BF24D9F7F800938F84 /* The Umbrella */;
+			targetProxy = 4CA9E2E224D9F7FA00938F84 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4CA9E2C924D9F7F800938F84 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4CA9E2CA24D9F7F800938F84 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4CA9E2CE24D9F7F900938F84 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4CA9E2CF24D9F7F900938F84 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4CA9E2E824D9F7FA00938F84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4CA9E2E924D9F7FA00938F84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4CA9E2EB24D9F7FA00938F84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA369DD880E7B78EFDD976AB /* Pods-The Umbrella.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "The Umbrella/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Lestad.The-Umbrella";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4CA9E2EC24D9F7FA00938F84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CBF0166A845992152718FE7A /* Pods-The Umbrella.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "The Umbrella/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Lestad.The-Umbrella";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4CA9E2EE24D9F7FA00938F84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A7FB3D5AEB414D6438FDDCA /* Pods-The UmbrellaTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "The UmbrellaTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Lestad.The-UmbrellaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/The Umbrella.app/The Umbrella";
+			};
+			name = Debug;
+		};
+		4CA9E2EF24D9F7FA00938F84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 93A2863DD6D6F12CD31BAF6B /* Pods-The UmbrellaTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "The UmbrellaTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Lestad.The-UmbrellaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/The Umbrella.app/The Umbrella";
+			};
+			name = Release;
+		};
+		4CA9E2F124D9F7FA00938F84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0EFA9BAC0413C67160C3D09 /* Pods-The Umbrella-The UmbrellaUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "The UmbrellaUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Lestad.The-UmbrellaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "The Umbrella";
+			};
+			name = Debug;
+		};
+		4CA9E2F224D9F7FA00938F84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 756282419332BF5963F47179 /* Pods-The Umbrella-The UmbrellaUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "The UmbrellaUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Lestad.The-UmbrellaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "The Umbrella";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4CA9E2BB24D9F7F800938F84 /* Build configuration list for PBXProject "The Umbrella" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CA9E2E824D9F7FA00938F84 /* Debug */,
+				4CA9E2E924D9F7FA00938F84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CA9E2EA24D9F7FA00938F84 /* Build configuration list for PBXNativeTarget "The Umbrella" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CA9E2EB24D9F7FA00938F84 /* Debug */,
+				4CA9E2EC24D9F7FA00938F84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CA9E2ED24D9F7FA00938F84 /* Build configuration list for PBXNativeTarget "The UmbrellaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CA9E2EE24D9F7FA00938F84 /* Debug */,
+				4CA9E2EF24D9F7FA00938F84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CA9E2F024D9F7FA00938F84 /* Build configuration list for PBXNativeTarget "The UmbrellaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CA9E2F124D9F7FA00938F84 /* Debug */,
+				4CA9E2F224D9F7FA00938F84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4CA9E2B824D9F7F800938F84 /* Project object */;
+}

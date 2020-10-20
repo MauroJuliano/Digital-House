@@ -10,7 +10,7 @@ import UIKit
 class ViewController: UIViewController {
 
     @IBOutlet weak var collectionView: UICollectionView!
-    var nameArrays = ["Jorge", "barbara","Jorge", "barbara","Jorge", "barbara","Jorge", "barbara","Jorge", "barbara"]
+    var nameArrays = ["Jorge", "barbara","Jorge", "barbara","Jorge", "barbara","Jorge", "barbara","Jorge", "barbara, Jorge", "barbara","Jorge", "barbara","Jorge", "barbara","Jorge", "barbara","Jorge", "barbara"]
     override func viewDidLoad() {
         super.viewDidLoad()
         collectionView.delegate = self
