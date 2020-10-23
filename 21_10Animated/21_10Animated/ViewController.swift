@@ -12,13 +12,10 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         addViewAndAnimated()
-        
-        
-        // Do any additional setup after loading the view.
     }
     func addViewAndAnimated(){
         let newView = UIView(frame: CGRect(x: 20, y: 40, width: 50, height: 50))
-        newView.backgroundColor = .magenta
+        newView.backgroundColor = .random()
         view.addSubview(newView)
         let tap = UITapGestureRecognizer(target: self, action: #selector(handleTap(_:)))
                                          
@@ -27,7 +24,7 @@ class ViewController: UIViewController {
    
     @objc func handleTap(_ sender: UITapGestureRecognizer){
         let otherView = UIView(frame: CGRect(x: 20, y: 93, width: 50, height: 50))
-        otherView.backgroundColor = .cyan
+        otherView.backgroundColor = .random()
         view.addSubview(otherView)
         let tap = UITapGestureRecognizer(target: self, action: #selector(secondTap(_:)))
                                          
@@ -35,7 +32,7 @@ class ViewController: UIViewController {
     }
     @objc func secondTap(_ sender: UITapGestureRecognizer){
         let thirdView = UIView(frame: CGRect(x: 20, y: 144, width: 50, height: 50))
-        thirdView.backgroundColor = .magenta
+        thirdView.backgroundColor = .random()
         view.addSubview(thirdView)
         
         let tap = UITapGestureRecognizer(target: self, action: #selector(lastTap(_:)))
@@ -57,6 +54,21 @@ class ViewController: UIViewController {
             self.addViewAndAnimated()
         }
         
+    }
+}
+extension CGFloat {
+    static func random() -> CGFloat {
+        return CGFloat(arc4random()) / CGFloat(UInt32.max)
+    }
+}
+extension UIColor {
+    static func random() -> UIColor {
+        return UIColor(
+           red:   .random(),
+           green: .random(),
+           blue:  .random(),
+           alpha: 1.0
+        )
     }
 }
 
