@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="sIn-Be-cb5">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--CarDetail-->
+        <scene sceneID="mxQ-qT-hwM">
+            <objects>
+                <viewController storyboardIdentifier="CarDetail" title="CarDetail" useStoryboardIdentifierAsRestorationIdentifier="YES" id="sIn-Be-cb5" customClass="CarDetailViewController" customModule="_6_10_tabbar" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="hgW-2X-I2q">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="SZM-11-i8Y">
+                                <rect key="frame" x="115" y="401" width="182" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="182" id="Hqz-ML-XhQ"/>
+                                    <constraint firstAttribute="height" constant="128" id="zxE-T8-ODv"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b01-bu-N89">
+                                <rect key="frame" x="138" y="574" width="108" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="108" id="4rW-cc-jz9"/>
+                                    <constraint firstAttribute="height" constant="40" id="8gF-In-vKV"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="sUi-Ep-bO9"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="b01-bu-N89" firstAttribute="top" secondItem="SZM-11-i8Y" secondAttribute="bottom" constant="45" id="5j3-Tg-0YU"/>
+                            <constraint firstItem="sUi-Ep-bO9" firstAttribute="trailing" secondItem="b01-bu-N89" secondAttribute="trailing" constant="168" id="JWq-iB-tu0"/>
+                            <constraint firstItem="SZM-11-i8Y" firstAttribute="leading" secondItem="sUi-Ep-bO9" secondAttribute="leading" constant="115" id="TKT-vP-aCH"/>
+                            <constraint firstItem="b01-bu-N89" firstAttribute="leading" secondItem="sUi-Ep-bO9" secondAttribute="leading" constant="138" id="bqD-tb-KEv"/>
+                            <constraint firstItem="sUi-Ep-bO9" firstAttribute="bottom" secondItem="b01-bu-N89" secondAttribute="bottom" constant="248" id="eU3-br-5cF"/>
+                            <constraint firstItem="sUi-Ep-bO9" firstAttribute="trailing" secondItem="SZM-11-i8Y" secondAttribute="trailing" constant="117" id="glp-6p-diq"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="carImageView" destination="SZM-11-i8Y" id="e2z-fN-exS"/>
+                        <outlet property="carNameLabel" destination="b01-bu-N89" id="Vzq-tZ-YoE"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fYX-XE-bUX" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-510.14492753623193" y="67.633928571428569"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
