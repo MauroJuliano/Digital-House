@@ -35,8 +35,8 @@
                                     <action selector="converterButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wfZ-eo-ohD"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Czm-nf-Xsb">
-                                <rect key="frame" x="184" y="360" width="42" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Czm-nf-Xsb">
+                                <rect key="frame" x="144" y="360" width="144" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -46,17 +46,17 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="OZN-ew-sIT" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="55" id="3nW-ME-hwI"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Czm-nf-Xsb" secondAttribute="trailing" constant="126" id="BdQ-N4-55f"/>
+                            <constraint firstItem="Czm-nf-Xsb" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="144" id="Bgk-mq-B55"/>
                             <constraint firstItem="3hC-QM-KI1" firstAttribute="top" secondItem="jVo-Lg-YRj" secondAttribute="bottom" constant="38" id="DLR-Nu-Ndl"/>
-                            <constraint firstItem="Czm-nf-Xsb" firstAttribute="top" secondItem="OZN-ew-sIT" secondAttribute="bottom" constant="19" id="F4f-1w-rk0"/>
-                            <constraint firstItem="Czm-nf-Xsb" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="184" id="M67-mZ-G3Z"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="OZN-ew-sIT" secondAttribute="trailing" constant="41" id="Ny9-eW-WCm"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="3hC-QM-KI1" secondAttribute="bottom" constant="315" id="O3q-rc-keG"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Czm-nf-Xsb" secondAttribute="trailing" constant="188" id="eWA-rU-G9o"/>
                             <constraint firstItem="3hC-QM-KI1" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="87" id="fj1-ya-s4N"/>
-                            <constraint firstItem="jVo-Lg-YRj" firstAttribute="top" secondItem="Czm-nf-Xsb" secondAttribute="bottom" constant="68" id="lDI-L2-QA3"/>
+                            <constraint firstItem="jVo-Lg-YRj" firstAttribute="top" secondItem="Czm-nf-Xsb" secondAttribute="bottom" constant="68" id="kux-oi-AgN"/>
                             <constraint firstItem="OZN-ew-sIT" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="263" id="mZP-bK-v1V"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="jVo-Lg-YRj" secondAttribute="trailing" constant="88" id="ogM-0A-rru"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="3hC-QM-KI1" secondAttribute="trailing" constant="86" id="rTd-44-VMy"/>
+                            <constraint firstItem="Czm-nf-Xsb" firstAttribute="top" secondItem="OZN-ew-sIT" secondAttribute="bottom" constant="19" id="wSe-9H-qWR"/>
                             <constraint firstItem="jVo-Lg-YRj" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="85" id="xsM-PT-Rb8"/>
                         </constraints>
                     </view>

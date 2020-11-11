@@ -27,18 +27,44 @@ class ViewController: UIViewController {
             
               let valorAtual = ConverteMoeda(fromDictionary: dictionary)
                 let money = valorAtual.getValue(type: .brl)
-                print(money)
+            
+                let brl: String = String(format: "%.2f", money as! CVarArg)
+              
+                let valortotal = Double(brl)! * type!
+                
+                self.valorConvertidoLabel.text = "R$\(valortotal)"
             }
         }
     }
     
     
     @IBAction func moedaBase(_ sender: Any) {
-        
+        let alert = UIAlertController(title: "Convertor", message: "Please Select an Option", preferredStyle: .actionSheet)
+           
+           alert.addAction(UIAlertAction(title: "Dolar to real", style: .default , handler:{ (UIAlertAction)in
+               print("User click Approve button")
+           }))
+           
+           alert.addAction(UIAlertAction(title: "Real to dolar", style: .default, handler:{ (UIAlertAction)in
+               print("User click Dismiss button")
+           }))
+        alert.addAction(UIAlertAction(title: "Dismiss", style: .cancel, handler:{ (UIAlertAction)in
+              print("User click Dismiss button")
+          }))
+
+           self.present(alert, animated: true, completion: {
+               print("completion block")
+           })
     }
     
     @IBAction func converterButton(_ sender: Any) {
-        convertevalor(type: Double?)
+        if convertorTextField.text!.isEmpty || convertorTextField.text == "" {
+            
+        }else {
+            valorConvertidoLabel.isHidden = false
+            convertevalor(type: Double(convertorTextField.text!))
+        }
+        
     }
     
 }
