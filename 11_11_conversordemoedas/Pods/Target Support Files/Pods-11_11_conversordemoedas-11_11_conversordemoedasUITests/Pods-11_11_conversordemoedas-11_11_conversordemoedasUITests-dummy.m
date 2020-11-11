@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_11_11_conversordemoedas_11_11_conversordemoedasUITests : NSObject
+@end
+@implementation PodsDummy_Pods_11_11_conversordemoedas_11_11_conversordemoedasUITests
+@end

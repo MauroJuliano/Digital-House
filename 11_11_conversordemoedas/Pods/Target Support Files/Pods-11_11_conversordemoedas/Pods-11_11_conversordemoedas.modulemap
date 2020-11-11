@@ -1,0 +1,6 @@
+framework module Pods_11_11_conversordemoedas {
+  umbrella header "Pods-11_11_conversordemoedas-umbrella.h"
+
+  export *
+  module * { export * }
+}

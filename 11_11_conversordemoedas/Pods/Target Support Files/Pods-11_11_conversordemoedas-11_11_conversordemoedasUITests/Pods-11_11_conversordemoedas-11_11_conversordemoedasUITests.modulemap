@@ -1,0 +1,6 @@
+framework module Pods_11_11_conversordemoedas_11_11_conversordemoedasUITests {
+  umbrella header "Pods-11_11_conversordemoedas-11_11_conversordemoedasUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
