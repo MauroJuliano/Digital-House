@@ -1,0 +1,754 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1074BE066402E068687BD1E2 /* Pods_13_11_ListarEpisodiosTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CB89DCA25FDD4291A97D4A0 /* Pods_13_11_ListarEpisodiosTests.framework */; };
+		4CED0B2A255EF12700B4CD85 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CED0B29255EF12700B4CD85 /* AppDelegate.swift */; };
+		4CED0B2C255EF12700B4CD85 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CED0B2B255EF12700B4CD85 /* SceneDelegate.swift */; };
+		4CED0B2E255EF12700B4CD85 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CED0B2D255EF12700B4CD85 /* ViewController.swift */; };
+		4CED0B31255EF12700B4CD85 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CED0B2F255EF12700B4CD85 /* Main.storyboard */; };
+		4CED0B33255EF12900B4CD85 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CED0B32255EF12900B4CD85 /* Assets.xcassets */; };
+		4CED0B36255EF12900B4CD85 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CED0B34255EF12900B4CD85 /* LaunchScreen.storyboard */; };
+		4CED0B41255EF12900B4CD85 /* _3_11_ListarEpisodiosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CED0B40255EF12900B4CD85 /* _3_11_ListarEpisodiosTests.swift */; };
+		4CED0B4C255EF12900B4CD85 /* _3_11_ListarEpisodiosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CED0B4B255EF12900B4CD85 /* _3_11_ListarEpisodiosUITests.swift */; };
+		4CED0B64255EF55D00B4CD85 /* Shows.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CED0B63255EF55D00B4CD85 /* Shows.swift */; };
+		4CED0B69255EFA6B00B4CD85 /* ShowsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CED0B68255EFA6B00B4CD85 /* ShowsTableViewCell.swift */; };
+		5A88C56241D98C62E048FD76 /* Pods_13_11_ListarEpisodios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8975D77D86FF4F13A241AA07 /* Pods_13_11_ListarEpisodios.framework */; };
+		9B755C3DE2F333763E821595 /* Pods_13_11_ListarEpisodios_13_11_ListarEpisodiosUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA85B803BE6FCA5FEDF0A360 /* Pods_13_11_ListarEpisodios_13_11_ListarEpisodiosUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4CED0B3D255EF12900B4CD85 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4CED0B1E255EF12700B4CD85 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4CED0B25255EF12700B4CD85;
+			remoteInfo = 13_11_ListarEpisodios;
+		};
+		4CED0B48255EF12900B4CD85 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4CED0B1E255EF12700B4CD85 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4CED0B25255EF12700B4CD85;
+			remoteInfo = 13_11_ListarEpisodios;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01082D39F3CC3C98189DFAB7 /* Pods-13_11_ListarEpisodios-13_11_ListarEpisodiosUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-13_11_ListarEpisodios-13_11_ListarEpisodiosUITests.debug.xcconfig"; path = "Target Support Files/Pods-13_11_ListarEpisodios-13_11_ListarEpisodiosUITests/Pods-13_11_ListarEpisodios-13_11_ListarEpisodiosUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		1BE0FF212995D6B38E2D2E1C /* Pods-13_11_ListarEpisodios-13_11_ListarEpisodiosUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-13_11_ListarEpisodios-13_11_ListarEpisodiosUITests.release.xcconfig"; path = "Target Support Files/Pods-13_11_ListarEpisodios-13_11_ListarEpisodiosUITests/Pods-13_11_ListarEpisodios-13_11_ListarEpisodiosUITests.release.xcconfig"; sourceTree = "<group>"; };
+		4CED0B26255EF12700B4CD85 /* 13_11_ListarEpisodios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 13_11_ListarEpisodios.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CED0B29255EF12700B4CD85 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4CED0B2B255EF12700B4CD85 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		4CED0B2D255EF12700B4CD85 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4CED0B30255EF12700B4CD85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4CED0B32255EF12900B4CD85 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4CED0B35255EF12900B4CD85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4CED0B37255EF12900B4CD85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CED0B3C255EF12900B4CD85 /* 13_11_ListarEpisodiosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 13_11_ListarEpisodiosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CED0B40255EF12900B4CD85 /* _3_11_ListarEpisodiosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _3_11_ListarEpisodiosTests.swift; sourceTree = "<group>"; };
+		4CED0B42255EF12900B4CD85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CED0B47255EF12900B4CD85 /* 13_11_ListarEpisodiosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 13_11_ListarEpisodiosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CED0B4B255EF12900B4CD85 /* _3_11_ListarEpisodiosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _3_11_ListarEpisodiosUITests.swift; sourceTree = "<group>"; };
+		4CED0B4D255EF12900B4CD85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CED0B63255EF55D00B4CD85 /* Shows.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shows.swift; sourceTree = "<group>"; };
+		4CED0B68255EFA6B00B4CD85 /* ShowsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowsTableViewCell.swift; sourceTree = "<group>"; };
+		73C3640A08E52E229D2F1C23 /* Pods-13_11_ListarEpisodios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-13_11_ListarEpisodios.release.xcconfig"; path = "Target Support Files/Pods-13_11_ListarEpisodios/Pods-13_11_ListarEpisodios.release.xcconfig"; sourceTree = "<group>"; };
+		8975D77D86FF4F13A241AA07 /* Pods_13_11_ListarEpisodios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_13_11_ListarEpisodios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9CB89DCA25FDD4291A97D4A0 /* Pods_13_11_ListarEpisodiosTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_13_11_ListarEpisodiosTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A825AB130E2CFD97ED5FA928 /* Pods-13_11_ListarEpisodiosTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-13_11_ListarEpisodiosTests.release.xcconfig"; path = "Target Support Files/Pods-13_11_ListarEpisodiosTests/Pods-13_11_ListarEpisodiosTests.release.xcconfig"; sourceTree = "<group>"; };
+		AD56F4FF18CC836B2B212570 /* Pods-13_11_ListarEpisodiosTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-13_11_ListarEpisodiosTests.debug.xcconfig"; path = "Target Support Files/Pods-13_11_ListarEpisodiosTests/Pods-13_11_ListarEpisodiosTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FA85B803BE6FCA5FEDF0A360 /* Pods_13_11_ListarEpisodios_13_11_ListarEpisodiosUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_13_11_ListarEpisodios_13_11_ListarEpisodiosUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAC7EE196791D0AACF78364C /* Pods-13_11_ListarEpisodios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-13_11_ListarEpisodios.debug.xcconfig"; path = "Target Support Files/Pods-13_11_ListarEpisodios/Pods-13_11_ListarEpisodios.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4CED0B23255EF12700B4CD85 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A88C56241D98C62E048FD76 /* Pods_13_11_ListarEpisodios.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CED0B39255EF12900B4CD85 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1074BE066402E068687BD1E2 /* Pods_13_11_ListarEpisodiosTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CED0B44255EF12900B4CD85 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B755C3DE2F333763E821595 /* Pods_13_11_ListarEpisodios_13_11_ListarEpisodiosUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07BD2D82E1CCA5DF4FBBF596 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8975D77D86FF4F13A241AA07 /* Pods_13_11_ListarEpisodios.framework */,
+				FA85B803BE6FCA5FEDF0A360 /* Pods_13_11_ListarEpisodios_13_11_ListarEpisodiosUITests.framework */,
+				9CB89DCA25FDD4291A97D4A0 /* Pods_13_11_ListarEpisodiosTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		09C79B7158B3646E7491DB4D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FAC7EE196791D0AACF78364C /* Pods-13_11_ListarEpisodios.debug.xcconfig */,
+				73C3640A08E52E229D2F1C23 /* Pods-13_11_ListarEpisodios.release.xcconfig */,
+				01082D39F3CC3C98189DFAB7 /* Pods-13_11_ListarEpisodios-13_11_ListarEpisodiosUITests.debug.xcconfig */,
+				1BE0FF212995D6B38E2D2E1C /* Pods-13_11_ListarEpisodios-13_11_ListarEpisodiosUITests.release.xcconfig */,
+				AD56F4FF18CC836B2B212570 /* Pods-13_11_ListarEpisodiosTests.debug.xcconfig */,
+				A825AB130E2CFD97ED5FA928 /* Pods-13_11_ListarEpisodiosTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		4CED0B1D255EF12700B4CD85 = {
+			isa = PBXGroup;
+			children = (
+				4CED0B28255EF12700B4CD85 /* 13_11_ListarEpisodios */,
+				4CED0B3F255EF12900B4CD85 /* 13_11_ListarEpisodiosTests */,
+				4CED0B4A255EF12900B4CD85 /* 13_11_ListarEpisodiosUITests */,
+				4CED0B27255EF12700B4CD85 /* Products */,
+				09C79B7158B3646E7491DB4D /* Pods */,
+				07BD2D82E1CCA5DF4FBBF596 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4CED0B27255EF12700B4CD85 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4CED0B26255EF12700B4CD85 /* 13_11_ListarEpisodios.app */,
+				4CED0B3C255EF12900B4CD85 /* 13_11_ListarEpisodiosTests.xctest */,
+				4CED0B47255EF12900B4CD85 /* 13_11_ListarEpisodiosUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4CED0B28255EF12700B4CD85 /* 13_11_ListarEpisodios */ = {
+			isa = PBXGroup;
+			children = (
+				4CED0B29255EF12700B4CD85 /* AppDelegate.swift */,
+				4CED0B2B255EF12700B4CD85 /* SceneDelegate.swift */,
+				4CED0B2D255EF12700B4CD85 /* ViewController.swift */,
+				4CED0B2F255EF12700B4CD85 /* Main.storyboard */,
+				4CED0B32255EF12900B4CD85 /* Assets.xcassets */,
+				4CED0B34255EF12900B4CD85 /* LaunchScreen.storyboard */,
+				4CED0B37255EF12900B4CD85 /* Info.plist */,
+				4CED0B63255EF55D00B4CD85 /* Shows.swift */,
+				4CED0B68255EFA6B00B4CD85 /* ShowsTableViewCell.swift */,
+			);
+			path = 13_11_ListarEpisodios;
+			sourceTree = "<group>";
+		};
+		4CED0B3F255EF12900B4CD85 /* 13_11_ListarEpisodiosTests */ = {
+			isa = PBXGroup;
+			children = (
+				4CED0B40255EF12900B4CD85 /* _3_11_ListarEpisodiosTests.swift */,
+				4CED0B42255EF12900B4CD85 /* Info.plist */,
+			);
+			path = 13_11_ListarEpisodiosTests;
+			sourceTree = "<group>";
+		};
+		4CED0B4A255EF12900B4CD85 /* 13_11_ListarEpisodiosUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4CED0B4B255EF12900B4CD85 /* _3_11_ListarEpisodiosUITests.swift */,
+				4CED0B4D255EF12900B4CD85 /* Info.plist */,
+			);
+			path = 13_11_ListarEpisodiosUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4CED0B25255EF12700B4CD85 /* 13_11_ListarEpisodios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CED0B50255EF12900B4CD85 /* Build configuration list for PBXNativeTarget "13_11_ListarEpisodios" */;
+			buildPhases = (
+				43096D78DE124B1DEC216355 /* [CP] Check Pods Manifest.lock */,
+				4CED0B22255EF12700B4CD85 /* Sources */,
+				4CED0B23255EF12700B4CD85 /* Frameworks */,
+				4CED0B24255EF12700B4CD85 /* Resources */,
+				93A3708C07B2C4287596C73B /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = 13_11_ListarEpisodios;
+			productName = 13_11_ListarEpisodios;
+			productReference = 4CED0B26255EF12700B4CD85 /* 13_11_ListarEpisodios.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4CED0B3B255EF12900B4CD85 /* 13_11_ListarEpisodiosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CED0B53255EF12900B4CD85 /* Build configuration list for PBXNativeTarget "13_11_ListarEpisodiosTests" */;
+			buildPhases = (
+				38167EE1523F3F47218C8B00 /* [CP] Check Pods Manifest.lock */,
+				4CED0B38255EF12900B4CD85 /* Sources */,
+				4CED0B39255EF12900B4CD85 /* Frameworks */,
+				4CED0B3A255EF12900B4CD85 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4CED0B3E255EF12900B4CD85 /* PBXTargetDependency */,
+			);
+			name = 13_11_ListarEpisodiosTests;
+			productName = 13_11_ListarEpisodiosTests;
+			productReference = 4CED0B3C255EF12900B4CD85 /* 13_11_ListarEpisodiosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4CED0B46255EF12900B4CD85 /* 13_11_ListarEpisodiosUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CED0B56255EF12900B4CD85 /* Build configuration list for PBXNativeTarget "13_11_ListarEpisodiosUITests" */;
+			buildPhases = (
+				5175F79F27221CF681A25D8D /* [CP] Check Pods Manifest.lock */,
+				4CED0B43255EF12900B4CD85 /* Sources */,
+				4CED0B44255EF12900B4CD85 /* Frameworks */,
+				4CED0B45255EF12900B4CD85 /* Resources */,
+				05814795AA21A2D909A148C6 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4CED0B49255EF12900B4CD85 /* PBXTargetDependency */,
+			);
+			name = 13_11_ListarEpisodiosUITests;
+			productName = 13_11_ListarEpisodiosUITests;
+			productReference = 4CED0B47255EF12900B4CD85 /* 13_11_ListarEpisodiosUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4CED0B1E255EF12700B4CD85 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					4CED0B25255EF12700B4CD85 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					4CED0B3B255EF12900B4CD85 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 4CED0B25255EF12700B4CD85;
+					};
+					4CED0B46255EF12900B4CD85 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 4CED0B25255EF12700B4CD85;
+					};
+				};
+			};
+			buildConfigurationList = 4CED0B21255EF12700B4CD85 /* Build configuration list for PBXProject "13_11_ListarEpisodios" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4CED0B1D255EF12700B4CD85;
+			productRefGroup = 4CED0B27255EF12700B4CD85 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4CED0B25255EF12700B4CD85 /* 13_11_ListarEpisodios */,
+				4CED0B3B255EF12900B4CD85 /* 13_11_ListarEpisodiosTests */,
+				4CED0B46255EF12900B4CD85 /* 13_11_ListarEpisodiosUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4CED0B24255EF12700B4CD85 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CED0B36255EF12900B4CD85 /* LaunchScreen.storyboard in Resources */,
+				4CED0B33255EF12900B4CD85 /* Assets.xcassets in Resources */,
+				4CED0B31255EF12700B4CD85 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CED0B3A255EF12900B4CD85 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CED0B45255EF12900B4CD85 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		05814795AA21A2D909A148C6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-13_11_ListarEpisodios-13_11_ListarEpisodiosUITests/Pods-13_11_ListarEpisodios-13_11_ListarEpisodiosUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-13_11_ListarEpisodios-13_11_ListarEpisodiosUITests/Pods-13_11_ListarEpisodios-13_11_ListarEpisodiosUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-13_11_ListarEpisodios-13_11_ListarEpisodiosUITests/Pods-13_11_ListarEpisodios-13_11_ListarEpisodiosUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		38167EE1523F3F47218C8B00 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-13_11_ListarEpisodiosTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		43096D78DE124B1DEC216355 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-13_11_ListarEpisodios-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5175F79F27221CF681A25D8D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-13_11_ListarEpisodios-13_11_ListarEpisodiosUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		93A3708C07B2C4287596C73B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-13_11_ListarEpisodios/Pods-13_11_ListarEpisodios-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-13_11_ListarEpisodios/Pods-13_11_ListarEpisodios-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-13_11_ListarEpisodios/Pods-13_11_ListarEpisodios-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4CED0B22255EF12700B4CD85 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CED0B2E255EF12700B4CD85 /* ViewController.swift in Sources */,
+				4CED0B2A255EF12700B4CD85 /* AppDelegate.swift in Sources */,
+				4CED0B64255EF55D00B4CD85 /* Shows.swift in Sources */,
+				4CED0B69255EFA6B00B4CD85 /* ShowsTableViewCell.swift in Sources */,
+				4CED0B2C255EF12700B4CD85 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CED0B38255EF12900B4CD85 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CED0B41255EF12900B4CD85 /* _3_11_ListarEpisodiosTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CED0B43255EF12900B4CD85 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CED0B4C255EF12900B4CD85 /* _3_11_ListarEpisodiosUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4CED0B3E255EF12900B4CD85 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4CED0B25255EF12700B4CD85 /* 13_11_ListarEpisodios */;
+			targetProxy = 4CED0B3D255EF12900B4CD85 /* PBXContainerItemProxy */;
+		};
+		4CED0B49255EF12900B4CD85 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4CED0B25255EF12700B4CD85 /* 13_11_ListarEpisodios */;
+			targetProxy = 4CED0B48255EF12900B4CD85 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4CED0B2F255EF12700B4CD85 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4CED0B30255EF12700B4CD85 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4CED0B34255EF12900B4CD85 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4CED0B35255EF12900B4CD85 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4CED0B4E255EF12900B4CD85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4CED0B4F255EF12900B4CD85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4CED0B51255EF12900B4CD85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FAC7EE196791D0AACF78364C /* Pods-13_11_ListarEpisodios.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = 13_11_ListarEpisodios/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "lestad.-3-11-ListarEpisodios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4CED0B52255EF12900B4CD85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73C3640A08E52E229D2F1C23 /* Pods-13_11_ListarEpisodios.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = 13_11_ListarEpisodios/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "lestad.-3-11-ListarEpisodios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4CED0B54255EF12900B4CD85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD56F4FF18CC836B2B212570 /* Pods-13_11_ListarEpisodiosTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = 13_11_ListarEpisodiosTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "lestad.-3-11-ListarEpisodiosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/13_11_ListarEpisodios.app/13_11_ListarEpisodios";
+			};
+			name = Debug;
+		};
+		4CED0B55255EF12900B4CD85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A825AB130E2CFD97ED5FA928 /* Pods-13_11_ListarEpisodiosTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = 13_11_ListarEpisodiosTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "lestad.-3-11-ListarEpisodiosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/13_11_ListarEpisodios.app/13_11_ListarEpisodios";
+			};
+			name = Release;
+		};
+		4CED0B57255EF12900B4CD85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01082D39F3CC3C98189DFAB7 /* Pods-13_11_ListarEpisodios-13_11_ListarEpisodiosUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = 13_11_ListarEpisodiosUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "lestad.-3-11-ListarEpisodiosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = 13_11_ListarEpisodios;
+			};
+			name = Debug;
+		};
+		4CED0B58255EF12900B4CD85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1BE0FF212995D6B38E2D2E1C /* Pods-13_11_ListarEpisodios-13_11_ListarEpisodiosUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = 13_11_ListarEpisodiosUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "lestad.-3-11-ListarEpisodiosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = 13_11_ListarEpisodios;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4CED0B21255EF12700B4CD85 /* Build configuration list for PBXProject "13_11_ListarEpisodios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CED0B4E255EF12900B4CD85 /* Debug */,
+				4CED0B4F255EF12900B4CD85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CED0B50255EF12900B4CD85 /* Build configuration list for PBXNativeTarget "13_11_ListarEpisodios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CED0B51255EF12900B4CD85 /* Debug */,
+				4CED0B52255EF12900B4CD85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CED0B53255EF12900B4CD85 /* Build configuration list for PBXNativeTarget "13_11_ListarEpisodiosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CED0B54255EF12900B4CD85 /* Debug */,
+				4CED0B55255EF12900B4CD85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CED0B56255EF12900B4CD85 /* Build configuration list for PBXNativeTarget "13_11_ListarEpisodiosUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CED0B57255EF12900B4CD85 /* Debug */,
+				4CED0B58255EF12900B4CD85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4CED0B1E255EF12700B4CD85 /* Project object */;
+}

@@ -1,0 +1,6 @@
+framework module Pods_13_11_ListarEpisodios_13_11_ListarEpisodiosUITests {
+  umbrella header "Pods-13_11_ListarEpisodios-13_11_ListarEpisodiosUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

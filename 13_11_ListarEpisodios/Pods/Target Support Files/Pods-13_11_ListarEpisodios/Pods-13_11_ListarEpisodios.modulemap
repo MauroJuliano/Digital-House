@@ -1,0 +1,6 @@
+framework module Pods_13_11_ListarEpisodios {
+  umbrella header "Pods-13_11_ListarEpisodios-umbrella.h"
+
+  export *
+  module * { export * }
+}
